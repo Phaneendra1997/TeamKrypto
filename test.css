@@ -1,0 +1,82 @@
+.container-fluid {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background: #30dedc;
+  }
+  
+  .bg-dark {
+    background-color: #30dedc;
+  }
+  
+  .navalign {
+    align-items: right;
+  }
+  
+  
+  
+  
+  .icon {
+    padding-left: 1%;
+  }
+  
+  .teamname {
+    font-family: "Permanent Marker", cursive;
+    font-family: "Teko", sans-serif;
+    padding-top: 1%;
+    font-size: 40px;
+    color: #b2b679;
+  }
+  
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    color: #969b04;
+  }
+  
+  .nav-item {
+    padding-top: 1%;
+  }
+  
+  #navbarSupportedContent {
+    justify-content: end;
+    padding-right: 3%;
+  
+    padding: 0.5rem 5rem;
+  }
+  
+  .comingsoon {
+    z-index: 100;
+    cursor: url("assets/tomcursor.jpg"), auto;
+  }
+  .comingsoontext {
+    color: #000000;
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    top: 73%;
+    left: 87%;
+    margin-left: -60px;
+    display: inline-block;
+  }
+  .comingsoon:hover {
+    border-bottom: 1px solid red;
+  }
+  .comingsoon:hover .comingsoontext {
+    visibility: visible;
+  }
+  
+  .customicon {
+    color: #969b04;
+  }
+  
+  .custborder {
+    border: 2px solid #969b04;
+    border-radius: 25px;
+  }
+  
